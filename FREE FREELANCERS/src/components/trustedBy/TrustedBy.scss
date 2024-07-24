@@ -1,0 +1,33 @@
+@media(max-width:800px){
+  .trustedBy {
+background: red;
+    // width: 1000px;
+    margin-right: 0px;
+  }
+  .space{
+font-size: 19px;
+    margin-left: 10px;
+    margin-right: 50px;
+  }
+}
+.trustedBy {
+  background-color: #fafafa;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+
+  .container {
+    max-width: 760px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: rgb(200, 200, 200);
+    font-weight: 500;
+
+    img{
+      height: 50px;
+      object-fit: contain;
+    }
+  }
+  
+}
